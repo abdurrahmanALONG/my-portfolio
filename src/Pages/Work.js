@@ -1,9 +1,11 @@
 import React from 'react';
-import project1 from '../logos/pro-2.jpg';
-import project2 from '../logos/pro-1.jpg';
-import project3 from '../logos/pro-3.jpg';
+import project1 from '../logos/pro-1-1.jpg';
+import project2 from '../logos/pro-2-1.jpg';
+import project3 from '../logos/pro-3-1.jpg';
+import project4 from '../logos/pro-4-1.jpg';
 
 const Work = () => {
+
     return (
         <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -25,17 +27,12 @@ const Work = () => {
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Project-1
+                                MERN stack Project
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
+                                <a href='/workOne'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Demo
-                                    </button>
-                                </a>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Code
+                                        Details
                                     </button>
                                 </a>
                             </div>
@@ -48,17 +45,12 @@ const Work = () => {
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Project-2
+                                MERN stack Project
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
+                                <a href='/workTwo'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Demo
-                                    </button>
-                                </a>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Code
+                                        Details
                                     </button>
                                 </a>
                             </div>
@@ -72,22 +64,36 @@ const Work = () => {
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Project-3
+                                React JS Project
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
+                                <a href='/workThree'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Demo
-                                    </button>
-                                </a>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Code
+                                        Details
                                     </button>
                                 </a>
                             </div>
                         </div>
                     </div>
+                    <div
+                        style={{ backgroundImage: `url(${project4})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                React JS Project
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='/workFour'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Details
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Grid Item */}
                     <div
                         style={{ backgroundImage: `url(${project1})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -95,23 +101,17 @@ const Work = () => {
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Project-1
+                                MERN stack Project
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
+                                <a href='/workOne'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Demo
-                                    </button>
-                                </a>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Code
+                                        Details
                                     </button>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    {/* Grid Item */}
                     <div
                         style={{ backgroundImage: `url(${project2})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -119,40 +119,12 @@ const Work = () => {
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Project-2
+                                MERN stack Project
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
+                                <a href='/workTwo'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Demo
-                                    </button>
-                                </a>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Code
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        style={{ backgroundImage: `url(${project3})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-                    >
-                        {/* Hover Effects */}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Project-3
-                            </span>
-                            <div className='pt-8 text-center'>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Demo
-                                    </button>
-                                </a>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Code
+                                        Details
                                     </button>
                                 </a>
                             </div>
