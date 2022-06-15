@@ -7,9 +7,9 @@ import project4 from '../logos/pro-4-1.jpg';
 const Work = () => {
 
     return (
-        <div name='work' className='w-full md:h-screen pb-20 text-gray-300 bg-[#0a192f]'>
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-                <div className='pb-8'>
+        <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+            <div className='max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full'>
+                <div className='pt-8 pl-4'>
                     <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
                         Work
                     </p>
@@ -17,7 +17,7 @@ const Work = () => {
                 </div>
 
                 {/* Container */}
-                <div className='grid  sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                <div className='grid px-4 sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                     {/* Grid Item */}
                     <div
